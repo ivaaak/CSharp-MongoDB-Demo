@@ -49,10 +49,8 @@ namespace MongoCore
 
             foreach (var item in records.Result)
             {
-                Console.WriteLine($"{item.Id}: {item.FirstName}: {item.LastName} ");
-                Console.WriteLine();
+                Console.WriteLine($"Item: {item.Id}: {item.FirstName}: {item.LastName} ");
             }
-            Console.ReadLine();
         }
     }
 }
