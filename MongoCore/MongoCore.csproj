@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MongoCore.Domain\MongoCore.Domain.csproj" />
+    <ProjectReference Include="..\MongoCore.Repository\MongoCore.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
