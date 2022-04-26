@@ -37,9 +37,8 @@ namespace MongoCore.Repository.Context
             return _db.GetCollection<T>(typeof(T).Name);
         }
 
-        public IMongoCollection<Blog> Blogs
+        public IMongoCollection<Blog> Blogs()
         {
-
             return _db.GetCollection<Blog>("Blog");
         }
     }
